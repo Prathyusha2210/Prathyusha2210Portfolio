@@ -97,7 +97,13 @@
     if (ferror) return false;
 
     var this_form = $(this);
-<<<<<<< HEAD
+    this_form.find('.loading').slideDown();
+
+    this_form.find('.loading').slideUp();
+    this_form.find('.sent-message').slideDown();
+
+
+//<<<<<<< HEAD
     /*
     var action = $(this).attr('action');
 =======
@@ -132,12 +138,12 @@
     } else {
       php_email_form_submit(this_form,action,this_form.serialize());
     }
-    
+    */
    
     return true;
   });
   
-  
+  /*
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
       type: "POST",
@@ -176,5 +182,5 @@
       this_form.find('.error-message').slideDown().html(error_msg);
     });
   }
-  
+  */
 })(jQuery);
