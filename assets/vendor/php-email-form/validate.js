@@ -97,14 +97,18 @@
     if (ferror) return false;
 
     var this_form = $(this);
+<<<<<<< HEAD
     /*
     var action = $(this).attr('action');
+=======
+    var action = $(this).attr('action');
+
+>>>>>>> parent of d8deb5b (update in form js)
     if( ! action ) {
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html('The form action property is not set!');
       return false;
     }
-    */
     
     
     this_form.find('.error-message').slideUp();
