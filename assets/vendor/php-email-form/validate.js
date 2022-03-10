@@ -124,11 +124,10 @@
       php_email_form_submit(this_form,action,this_form.serialize());
     }
     */
-
+   
     return true;
   });
   
-  /*
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
       type: "POST",
@@ -167,6 +166,5 @@
       this_form.find('.error-message').slideDown().html(error_msg);
     });
   }
-  */
   
 })(jQuery);
