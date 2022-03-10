@@ -103,6 +103,9 @@
 =======
     var action = $(this).attr('action');
 
+<<<<<<< HEAD
+>>>>>>> parent of d8deb5b (update in form js)
+=======
 >>>>>>> parent of d8deb5b (update in form js)
     if( ! action ) {
       this_form.find('.loading').slideUp();
